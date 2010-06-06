@@ -1,0 +1,27 @@
+// asciidoc syntax
+// utf-8 encoding
+
+INSTALL
+=======
+
+1. Add the ttx path to your Matlab footnote:[Matlab is registered
+trademark of The Mathworks, Inc.] path. You may include this line in
+a +startup.m+ file.
++
+......................
+>> addpath /path/to/ttx
+......................
+
+2. To get eigenvalue functionality, compile the +eighelper.c+ module.
++
+......................
+>> mex /path/to/ttx/@tensor/private/eighelper.c
+......................
+
+3. To get mldivide functionality, compile the +fastmldivide.c+ module.
+This module requires 'LAPACK' installed in your system.
++
+......................
+>> mex -llapack /path/to/ttx/@tensor/private/eighelper.c
+......................
+

@@ -1,0 +1,22 @@
+// asciidoc syntax
+// utf-8 encoding
+
+README
+======
+Eduardo Suarez-Santana <http://e.suarezsantana.com/>
+
+'ttx tensor toolbox' is a 'Matlab' footnote:[Matlab is registered
+trademark of The Mathworks, Inc.] toolbox to simplify computation in
+fields of data. These computations may involve matrix and low order (at
+the moment) tensor computations.
+
+Requirements
+------------
+This software runs under 'Matlab'. Some functionality may need extra
+'Matlab' toolboxes, like the 'Symbolic Math Toolbox' and the 'Image
+Processing Toolbox', and extra libraries like 'LAPACK'.
+
+I hope you find it useful.
+
+For more info, follow me at http://e.suarezsantana.com/
+
